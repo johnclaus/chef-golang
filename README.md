@@ -64,7 +64,7 @@ To install Go packages using node attributes, include `golang::packages` in your
     <td><tt>['go']['version']</tt></td>
     <td>String</td>
     <td>Go version</td>
-    <td><tt>1.2</tt></td>
+    <td><tt>1.3.3</tt></td>
   </tr>
   <tr>
     <td><tt>['go']['platform']</tt></td>
@@ -101,7 +101,7 @@ To install Go packages using node attributes, include `golang::packages` in your
 
 ## <a name="testing"></a> Testing
 
-This project have [foodcritic](https://github.com/acrmp/foodcritic) for syntax checking and
+This project uses [foodcritic](https://github.com/acrmp/foodcritic) for syntax checking and
 [test-kitchen](https://github.com/opscode/test-kitchen) for integration testing. You can run the test suite by
 typing: `rake kitchen:all` (may be slow for the first time).
 
@@ -117,7 +117,7 @@ satisfied:
 
 1. Fork the repository
 2. Create a named feature branch (like `add_component_x`)
-3. Write you change
+3. Write your change
 4. Test it by running `rake kitchen:all`
 5. Submit a Pull Request
 
@@ -129,4 +129,5 @@ satisfied:
 * **[@buth](https://github.com/buth)**
 * **[@computerlyrik](https://github.com/computerlyrik)**
 * **[@pseudomuto](https://github.com/pseudomuto)**
+* **[@johnclaus](https://github.com/johnclaus)**
 
